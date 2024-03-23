@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+
+    <!-- Custom CSS -->
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="hero-border.css" />
+  </head>
+
+  <body>
+    <header class="site-header">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container">
+          <a class="navbar-brand" href="#"
+            ><img src="images/header-logo.PNG" alt=""
+          /></a>
+          <button
+            class="navbar-toggler collapsed"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >Showcase</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Docs</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Analytics</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Templates</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Enterprise</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button class="btn submit-btn" type="submit">CtrlK</button>
+            </form>
+            <a class="btn light-btn diploy mbl-none" type="submit">Deploy</a>
+            <a class="btn dark-btn mbl-none" type="submit">Learn</a>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- Hero Section -->
+    <section class="hero-banner"
+    style="width: 100vw; overflow-x: hidden;"
+    >
+    <div class="container ">
+      <div class="row hero-content">
+        <div class="overlay-main-border">
+        <div id="flow-v1"></div></div>
+        <div class="col-12 text-center border-abso">
+          <div class="dash-border-h"></div>
+          <div id="flow-h"></div>
+          <div class=" overlay-dash">        
+              <!-- <div id="flow-v"></div> -->
+</div>
+          <div class="overlay-dash-sec"></div>
+
+        
+          <div class="hero-title ">
+          
+            
+            <h1 style="border: none;">  The React Framework for the Web</h1>
+          </div>
+        </div>
+        <div class="col-12 text-center border-abso-2">
+          <div class="dash-border-h-2"></div>
+          <div id="flow-h-2"></div>
+
+          <div style="border: none;" class="hero-text text">
+            <p >Used by some of the world's largest companies, Next.js enables you to create<strong> high-quality web
+                applications </strong> with the power of React components.</p>
+          </div>
+        </div>
+        <div class="col-12 text-center border-abso-3">
+          <div class="dash-border-h-3"></div>
+          <div id="flow-h-3"></div>
+
+          <div style="border: none;" class="hero-buttons">
+            <div style="border: none;" class="d-flex justify-content-center">
+              <button class="dark-btn btn">Get Started</button>
+              <button class="light-btn btn">Learn Next.js</button>
+              <p class="copy-text "><small id="content">npx create-next-app@latest</small>
+                <button onclick="copyTextWithIcon(this)" class="copy-btn">   <img src="images/copy.png" alt="" class="img-fluid"></button>
+              </p>
+            </div>
+          </div>
+          <div class="dash-border-h-3"></div>
+           <div id="flow-h-3"></div>
+
+          <div class="overlay-dash-third"></div>
+          <div class="overlay-dash-fourth"></div>
+          
+        </div>
+        <div class="overlay-main-border-2"></div>
+      </div>
+    </div>
+  </section>
+  <!-- Card Sections -->
+  <section class="card-sec">
+    <div class="container">
+      <div class="section-title d-flex flex-column  align-items-center justify-content-center   flex-md-row text">
+        <h2 class="op-9">What's in Next.js?</h2>
+        <p>Everything you need to build great products on the web.</p>
+      </div>
+      <div class="row">
+        <div class="col-md-4 pad-8">
+          <div class="featured-card bg-white ">
+            <img src="images/Capture2.gif" style="object-fit: cover;" alt="" class="img-fluid">
+            <div class="card-content">
+              <h3 class="small-heading">Built-in Optimizations</h3>
+              <p class="small-text">Automatic Image, Font, and Script Optimizations for improved UX and Core Web Vitals.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 pad-8">
+          <div class="featured-card bg-white">
+            <img src="images/Capture3.gif" alt="" class="img-fluid">
+            <div class="card-content">
+              <h3 class="small-heading">Dynamic HTML Streaming</h3>
+              <p class="small-text">Instantly stream UI from the server, integrated with the App Router and React
+                Suspense.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 pad-8">
+          <div class="featured-card bg-white">
+            <img src="images/Capture4.PNG" alt=""  class="img-fluid">
+            <div class="card-content">
+              <h3 class="small-heading">React Server Components</h3>
+              <p class="small-text">Add components without sending additional client-side JavaScript. Built on the
+                latest React features.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 pad-8">
+          <div class="featured-card">
+            <div class="card-content">
+              <h3 class="small-heading">Data Fetching</h3>
+              <p class="small-text">Make your React component async and await your data. Next.js supports both server and client data fetching.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 pad-8">
+          <div class="featured-card">
+            <div class="card-content">
+              <h3 class="small-heading">CSS Support</h3>
+              <p class="small-text">Style your application with your favorite tools, including support for CSS Modules, Tailwind CSS, and popular community libraries.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 pad-8">
+          <div class="featured-card">
+            <div class="card-content">
+              <h3 class="small-heading">Client and Server Rendering</h3>
+              <p class="small-text">Flexible rendering and caching options, including Incremental Static Regeneration (ISR), on a per-page level.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-8">
+          <div class="row">
+          <div class="col-md-6 pad-8">
+            <div class="featured-card">
+              <div class="card-content">
+                <h3 class="small-heading">Server Actions</h3>
+                <p class="small-text">Run server code by calling a function. Skip the API. Then, easily revalidate cached data and update your UI in one network roundtrip.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 pad-8">
+            <div class="featured-card">
+              <div class="card-content">
+                <h3 class="small-heading">Route Handlers</h3>
+                <p class="small-text">Build API endpoints to securely connect with third-party services for handling auth or listening for webhooks.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 pad-8">
+            <div class="featured-card">
+              <div class="card-content">
+                <h3 class="small-heading">Advanced Routing & Nested Layouts</h3>
+                <p class="small-text">Create routes using the file system, including support for more advanced routing patterns and UI layouts.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 pad-8">
+            <div class="featured-card">
+              <div class="card-content">
+                <h3 class="small-heading">Middleware</h3>
+                <p class="small-text">Take control of the incoming request. Use code to define routing and access rules for authentication, experimentation, and internationalization.</p>
+              </div>
+            </div>
+          </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="featured-card black-card">
+            <img src="images/dots.png" alt="" class="img-fluid">
+            <div class="card-content">
+              <h3 class="small-heading">Next.js 14</h3>
+              <p class="small-text">The power of full-stack to the frontend. Read the release notes.</p>
+              <div class="bg-white-arrow"><img src="images/arrow-right.png" alt="" class="arrow-img"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- built section -->
+  <section class="built-sec text-center">
+    <div class="container">
+      <div class="text text-center">
+        <h2 class="op-9">Built on a foundation of fast, production-grade tooling </h2>
+      </div>
+      <div class="powerd-by">
+        <img src="images/Capture21.gif" alt="" class="img-fluid" style="scale: 0.8;  transform: translateY(13%);">
+        
+      </div>
+     
+      <div class="row">
+        <div class="col-md-4">
+          <div class="built-cards">
+            <img src="images/react.svg" alt="">
+            <div class="card-content">
+              <h3 class="small-heading">React</h3>
+              <p class="small-text">The library for web and native user interfaces. Next.js is built on the latest React
+                features, including Server Components and Actions.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="built-cards">
+            <img src="images/turbopack.svg" alt="">
+            <div class="card-content">
+              <h3 class="small-heading">Turbopack</h3>
+              <p class="small-text"><span data-subtitle="true">An incremental bundler optimized for JavaScript and
+                  TypeScript, written in Rust <img alt="Rust Logo" loading="lazy" width="20" height="20"
+                    decoding="async" data-nimg="1" style="color:transparent;display:inline" src="images/rust.svg">, and
+                  built into Next.js.</span></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="built-cards">
+            <img src="images/swc.svg" alt="">
+            <div class="card-content">
+              <h3 class="small-heading">Speedy Web Compiler</h3>
+              <p class="small-text"><span data-subtitle="true">An extensible Rust <img alt="Rust Logo" loading="lazy"
+                    width="20" height="20" decoding="async" data-nimg="1" style="color:transparent;display:inline"
+                    src="images/rust.svg"> based platform for the next generation of fast developer tools, and can be
+                  used for both compilation and minification.</span></p>
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
+  <!-- verel section -->
+  <section class="vercel-sec">
+    <div class="container">
+      <div class="section-title d-flex text">
+        <h2 class="op-9 mb-0">Get started in seconds</h2>
+        <p style="color:#666 ">Deploy Next.js to Vercel</p>
+      </div>
+      <div class="row badges-row">
+        <div class="col-12 order2">
+          <div class="d-flex badges-flex">
+            <span class="templates_badge" data-color="purple">Starter</span><span class="templates_badge"
+              data-color="green">Ecommerce</span><span class="templates_badge" data-color="amber">Blog</span><span
+              class="templates_badge" data-color="blue">AI</span><span class="templates_badge" data-color="purple">Edge
+              Functions</span><span class="templates_badge" data-color="green">Edge Config</span><span
+              class="templates_badge" data-color="amber">Portfolio</span><span class="templates_badge"
+              data-color="blue">SaaS</span><span class="templates_badge" data-color="purple">Multi-tenant
+              Apps</span><span class="templates_badge" data-color="green">Realtime Apps</span><span
+              class="templates_badge" data-color="amber">Documentation</span><span class="templates_badge"
+              data-color="blue">Virtual
+              Event</span><span class="templates_badge" data-color="purple">Web3</span>
+          </div>
+        </div>
+        <div class="col-lg-6 col-12 order3">
+          <div class="badge-content">
+            <p>Vercel is a frontend cloud from the creators of Next.js, making it easy to get started with Next.js
+              quickly.
+              <br><br>
+              Jumpstart your Next.js development with pre-built solutions from Vercel and our community.
+            </p>
+            <a href="#" class="btn deploy-btn">Deploy a Template on Vercel </a>
+          </div>
+        </div>
+        <div class="col-lg-6 col-12 order1">
+          <div class="img-cards">
+            <div class="first-card div-rotate">
+              <img src="images/template-next-boilerplate.avif" alt="">
+              <div class="img-card-content">
+                <p><strong>Image Gallery Starter</strong></p>
+                <p>An image gallery built on Next.js and Cloudinary.</p>
+              </div>
+            </div>
+            <div class="second-card div-rotate">
+              <img src="images/template-next-commerce.avif" alt="">
+              <div class="img-card-content">
+                <p><strong>Image Gallery Starter</strong></p>
+                <p>An image gallery built on Next.js and Cloudinary.</p>
+              </div>
+            </div>
+            <div class="third-card div-rotate">
+              <img src="images/template-next-gallery.avif" alt="">
+              <div class="img-card-content">
+                <p><strong>Image Gallery Starter</strong></p>
+                <p>An image gallery built on Next.js and Cloudinary.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Framework Section -->
+  <section class="farmework-sec text-center">
+    <img src="images/divider.svg" alt="">
+    <div class="section-title text-center">
+      <h2 class="op-9 mb-5 mt-3">The framework of choice when it matters</h2>
+    </div>
+    <div class="row first-row">
+      <div class="col-sm-3 col-6 pl-0">
+        <div class="frame-img">
+          <a href="" class="showcase-preview"><img src="images/preview-audible.avif" alt=""></a>
+          <a href="" class="showcase-preview"><img src="images/preview-sonos.avif" alt=""></a>
+        </div>
+      </div>
+      <div class="col-sm-3 col-6">
+        <div class="frame-img">
+          <a href="" class="showcase-preview"><img src="images/preview-twitch.avif" alt=""></a>
+        </div>
+      </div>
+      <div class="col-sm-4 col-6">
+        <div class="frame-img">
+          <a href="" class="showcase-preview"><img src="images/preview-notion.avif" alt=""></a>
+        </div>
+        <div class="small-framework d-flex gap-40">
+          <a href="" class="showcase-preview"><img src="images/preview-today.avif" alt=""></a>
+          <a href="" class="showcase-preview"><img src="images/preview-ph.avif" alt=""></a>
+        </div>
+      </div>
+      <div class="col-sm-2 col-6 pr-0">
+        <div class="frame-img">
+          <a href="" class="showcase-preview"><img src="images/preview-nike.avif" alt=""></a>
+          <a href="" class="showcase-preview"><img src="images/preview-wapo.avif" alt=""></a>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row mt-3">
+        <div class="badge-content">
+          <p class="m-auto">For performance, efficiency and developer experience.
+            Next.js is trusted by some of the biggest names on the web.
+          </p>
+          <a href="#" class="btn deploy-btn m-auto">View the Next.js Showcase</a>
+        </div>
+      </div>
+      <div class="row mt-5 mb-5">
+        <div class="col-md-4 p-0">
+          <div class="site-card border-left">
+            <blockquote>
+              <p>“With Next.js at the helm of our headless tech stack, our developers can create features with velocity
+                and speed, ultimately enabling users to create whatever, whenever they want to.”</p>
+            </blockquote>
+            <img src="images/loom.png" alt="" style="position:relative; left: -10px; height: 30px; width: 102px;">
+            <small class="text-left"><span data-author="true">Tatiana Mac<!-- -->, <!-- -->Senior Software
+                Engineer</span></small>
+          </div>
+        </div>
+        <div class="col-md-4  p-0">
+          <div class="site-card">
+            <blockquote>
+              <p>“With Next.js at the helm of our headless tech stack, our developers can create features with velocity
+                and speed, ultimately enabling users to create whatever, whenever they want to.”</p>
+            </blockquote>
+            <div>
+              <img src="images/indent.png" alt="" style="position:relative; left: -10px ; height: 30px; width: 102px;"
+              >
+              <small class="text-left"><span data-author="true">Tatiana Mac<!-- -->, <!-- -->Senior Software
+                  Engineer</span></small>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4  p-0">
+          <div class="site-card border-right">
+            <blockquote>
+              <p>“With Next.js at the helm of our headless tech stack, our developers can create features with velocity
+                and speed, ultimately enabling users to create whatever, whenever they want to.”</p>
+            </blockquote>
+            <div>
+              <img src="images/wunderman.png" alt="" style="position:relative; left: -10px; height: 37px; width: 133px;"
+              >
+              <small class="text-left"><span data-author="true">Tatiana Mac<!-- -->, <!-- -->Senior Software
+                  Engineer</span></small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+      <footer class="inside-footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-sm-2 footer-logo">
+
+              <img src="images/footer-logo.png">
+            </div>
+          <div class="col-6 col-sm-2">
+              <h4>Resources</h4>
+              <p class="space"><a href="">Docs</a></p>
+              <p class="space"><a href="">Learn</a></p>
+              <p class="space"><a href="">Showcase</a></p>
+              <p class="space"><a href="">Blog</a></p>
+              <p class="space"><a href="">Analytics</a></p>
+              <p class="space"><a href="">Next.js Conf</a></p>
+              <p class="space"><a href="">DX Platform</a></p>
+            </div>
+            
+            <div class="col-6 col-sm-2">
+              <h4>More</h4>
+              <p class="space"><a href="">Next.js Commerce</a></p>
+              <p class="space"><a href="">Contact Sales</a></p>
+              <p class="space"><a href="">GitHub</a></p>
+              <p class="space"><a href="">Releases</a></p>
+              <p class="space"><a href="">Telemetry</a></p>
+              <p class="space"><a href="">Governance</a></p>
+            </div>
+            
+            <div class="col-6 col-sm-2">
+              <h4>About Vercel</h4>
+              <p class="space"><a href="">Next.js + Vercel</a></p>
+              <p class="space"><a href="">Open Source Software</a></p>
+              <p class="space"><a href="">GitHub</a></p>
+              <p class="space">X</p>
+            </div>
+            
+            <div class="col-6 col-sm-2">
+              <h4>Legal</h4>
+              <p class="space"><a href="">Privacy Policy</a></p>
+              <p class="space"><a href="">Cookie preferences</a></p>
+            </div>
+            
+            <div class="col-12 newsletter col-sm-2">
+              <h4>Subscribe to our newsletter</h4>
+              <p>Stay updated on new releases and features, guides, and case studies.</p>
+              <form data-input-wrapper="true" action="" enctype="multipart/form-data" method="POST">
+                <input aria-label="Enter your email" data-1p-ignore="true" class="form-control" placeholder="you@domain.com" required="" type="email" name="email">
+                <button class="submit-styling" type="submit">Subscribe</button>
+              </form>
+            </div>
+            
+          </div>
+          <div class="row">
+              <div class="col-12 text-center">
+                <div class="copywright-div">
+                    <small>© 2024 Vercel, Inc</small>
+                    <ul class="d-flex p-0 m-0">
+                        <li><a href=""><img src="images/github.svg" alt=""></a></li>
+                        <li><a href=""><img src="images/x.svg" alt=""></a></li>
+                    </ul>
+                </div>
+              </div>
+          </div>
+        </div>
+      </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+      integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+      integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      function copyTextWithIcon(button) {
+        // Get the content of the small tag
+        var text = document.getElementById("content").innerText;
+
+        // Create a temporary textarea element to hold the text
+        var tempTextarea = document.createElement("textarea");
+        tempTextarea.value = text;
+        document.body.appendChild(tempTextarea);
+
+        // Select the text in the textarea
+        tempTextarea.select();
+
+        // Copy the selected text to the clipboard
+        document.execCommand("copy");
+
+        // Remove the temporary textarea
+        document.body.removeChild(tempTextarea);
+
+        // Change the button icon to indicate copy
+        button.innerHTML =
+          '<img src="images/check-mark.png" alt="" class="img-fluid">';
+
+        // Set a timeout to revert the button icon after a short delay (e.g., 2 seconds)
+        setTimeout(function () {
+          button.innerHTML =
+            '<img src="images/copy.png" alt="" class="img-fluid copy-icon">';
+        }, 500); // Revert back after 2 seconds
+      }
+    </script>
+    <script src="hero-border.js"></script>
+  </body>
+</html>

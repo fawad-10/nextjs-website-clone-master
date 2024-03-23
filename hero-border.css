@@ -1,0 +1,399 @@
+.hero-title {
+  background-color: #fff;
+}
+
+.border-abso {
+  position: relative;
+}
+
+.dash-border-h {
+  position: relative;
+  top: 20%;
+  left: 0;
+
+  height: 1px;
+  border-bottom: 2px dashed #dcdcdc;
+  margin: 0 -5em;
+}
+#flow-h {
+  display: inline-block;
+  position: absolute;
+
+  top: 20%;
+  left: -20%;
+  height: 1px;
+  width: 9%;
+  margin: 0 -5rem;
+  animation: flow 1s cubic-bezier(0.19, 0.5, 0.22, 0.3);
+}
+@keyframes flow {
+  0% {
+    left: 0%;
+    border-top: 2px dashed #999;
+    scale: 0.8;
+  }
+  25% {
+    left: 25%;
+    border-top: 2px dashed #999;
+    scale: 1.2;
+  } /**/
+
+  50% {
+    left: 50%;
+    border-top: 2px dashed #aaa;
+    scale: 0.5;
+  }
+  60% {
+    left: 60%;
+    border-top: 2px dashed #aaa;
+    scale: 0.5;
+  }
+  75% {
+    left: 80%;
+    border-top: 1.75px dashed #aaa;
+    scale: 0.8;
+  }
+  100% {
+    left: 100%;
+    border-top: 1.75px dashed #999;
+    scale: 1.2;
+  }
+}
+
+.overlay-dash {
+  position: relative;
+  left: -15%;
+  right: 0;
+  top: 0;
+  height: 100%;
+  border-left: 2px dashed #dcdcdc;
+  display: inline-block;
+  border-bottom: none;
+  margin: -5em 0;
+  z-index: -9;
+}
+
+.overlay-dash-sec {
+  position: relative;
+  left: 15%;
+  right: 0;
+  top: 0;
+
+  height: 100%;
+  border-left: 2px dashed #dcdcdc;
+  display: inline-block;
+  border-bottom: none;
+  margin: -5em 0;
+  z-index: -1;
+}
+
+.border-abso-2 {
+  position: relative;
+}
+.dash-border-h-2 {
+  position: relative;
+  top: 0;
+  left: 0;
+
+  height: 1px;
+  border-bottom: 2px dashed #dcdcdc;
+  margin: 0 -5em;
+}
+#flow-h-2 {
+  display: inline-block;
+  position: absolute;
+
+  top: 0;
+  left: -20%;
+  height: 1px;
+  width: 9%;
+  margin: 0 -5rem;
+  animation: flow 0.9s cubic-bezier(0.19, 0.5, 0.22, 0.3);
+}
+/* @keyframes flow {
+  0% {
+    left: 0;
+    border-top: 2px dashed #999;
+    scale: 0.5;
+  }
+  50% {
+    left: 25%;
+    border-top: 2px dashed #999;
+    scale: 1.8;
+  } 
+
+  80% {
+    border-top: 2px dashed #aaa;
+    left: 25%;
+    scale: 0.9;
+  }
+  100% {
+    border-top: 2px dashed #aaa;
+    left: 36%;
+    scale: 0.8;
+  }
+} */
+
+.border-abso-3 {
+  position: relative;
+}
+.dash-border-h-3 {
+  position: relative;
+  top: 0;
+  left: 0;
+
+  height: 1px;
+  border-bottom: 2px dashed #dcdcdc;
+  margin: 0 -5em;
+}
+#flow-h-3 {
+  display: inline-block;
+  position: absolute;
+
+  top: 0;
+  left: -20%;
+  height: 1px;
+  width: 9%;
+  margin: 0 -5rem;
+  animation: flow 0.9s cubic-bezier(0.19, 0.5, 0.22, 0.3);
+}
+/* @keyframes flow {
+  0% {
+    border-top: 2.5px dashed #999;
+    scale: 0.5;
+  }
+  50% {
+    border-top: 2.5px dashed #999;
+    scale: 1.8;
+  } 
+
+  80% {
+    border-top: 2px dashed #aaa;
+    left: 25%;
+    scale: 0.9;
+  }
+  100% {
+    border-top: 2px dashed #aaa;
+    left: 36%;
+    scale: 0.8;
+  }
+} */
+
+.overlay-dash-third,
+.overlay-dash-fourth {
+  position: relative;
+  right: 0;
+  bottom: 53%;
+  height: 130%;
+  border-left: 2px dashed #dcdcdc;
+  display: inline-block;
+  border-bottom: none;
+  margin: -4em 0;
+  z-index: -1;
+}
+
+.overlay-dash-third {
+  left: -15%;
+}
+.overlay-dash-fourth {
+  left: 15%;
+}
+
+.hero-content {
+  position: relative;
+}
+
+.overlay-main-border,
+.overlay-main-border-2 {
+  position: absolute;
+  bottom: 0;
+  height: 120%;
+  margin: -3.5em 0;
+  z-index: -9;
+}
+.overlay-main-border {
+  border-left: 2px dashed #dcdcdc;
+  left: 0;
+}
+.overlay-main-border-2 {
+  border-right: 2px dashed #dcdcdc;
+  right: 0;
+}
+.card-content .small-heading {
+  font-size: 20px;
+  font-weight: 700;
+}
+.card-content .small-text {
+  font-size: 14px;
+  line-height: 1.2;
+  color: #666;
+}
+#flow-h-4 {
+  display: none;
+}
+@media (max-width: 800px) {
+  /* Make the overlay text vertically centered on mobile */
+
+  .dash-border-h {
+    top: 10%;
+  }
+
+  .overlay-dash-third,
+  .overlay-dash-fourth,
+  .overlay-dash,
+  .overlay-dash-sec {
+    display: none;
+    border: none;
+  }
+
+  .hero-title h1 {
+    line-height: 1.2;
+    text-align: center;
+    margin: 2rem 2rem auto 3rem;
+  }
+
+  #flow-h {
+    display: inline-block;
+    position: absolute;
+
+    top: 10%;
+    left: -20%;
+    height: 1px;
+    width: 9%;
+    margin: 0 -5rem;
+    animation: flow 1s cubic-bezier(0.19, 0.5, 0.22, 0.3);
+  }
+  @keyframes flow {
+    0% {
+      left: 0%;
+      border-top: 2px dashed #999;
+      scale: 0.8;
+    }
+    25% {
+      left: 25%;
+      border-top: 2px dashed #999;
+      scale: 1.2;
+    } /**/
+
+    50% {
+      left: 50%;
+      border-top: 2px dashed #aaa;
+      scale: 0.5;
+    }
+    60% {
+      left: 60%;
+      border-top: 2px dashed #aaa;
+      scale: 0.5;
+    }
+    75% {
+      left: 80%;
+      border-top: 1.75px dashed #aaa;
+      scale: 0.8;
+    }
+    100% {
+      left: 100%;
+      border-top: 1.75px dashed #999;
+      scale: 1.2;
+    }
+  }
+
+  .overlay-main-border,
+  .overlay-main-border-2 {
+    left: 6%;
+    right: 8%;
+    height: 133%;
+  }
+  .hero-title {
+    background-color: transparent;
+    padding: 5% 12% auto 12%;
+    text-align: center;
+  }
+  .hero-text {
+    margin: 0% 12% 0% 24%;
+    text-align: center;
+  }
+  .hero-text p {
+    color: #666;
+    font-size: 15px;
+  }
+
+  .hero-content {
+    margin-top: -8rem;
+  }
+  .featured-card img {
+    border-radius: 10px;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .hero-title h1 {
+    margin: 0.5rem 0rem auto 0rem;
+  }
+  .hero-text {
+    margin-inline: 50px;
+  }
+  .hero-text p {
+    text-align: justify;
+    line-height: 1.5;
+  }
+
+  .overlay-main-border {
+    left: 3%;
+  }
+  .overlay-main-border-2 {
+    right: 6%;
+  }
+
+  #flow-h-4 {
+    display: inline-block;
+    position: absolute;
+
+    top: 100%;
+    left: -20%;
+    height: 1px;
+    width: 9%;
+    margin: 0 -5rem;
+    animation: flow 1.2s cubic-bezier(0.19, 0.5, 0.22, 0.3);
+  }
+  @keyframes flow {
+    0% {
+      left: 0%;
+      border-bottom: 2px dashed #999;
+      scale: 0.8;
+    }
+    25% {
+      left: 25%;
+      border-bottom: 2px dashed #999;
+      scale: 1.2;
+    } /**/
+
+    50% {
+      left: 50%;
+      border-bottom: 2px dashed #aaa;
+      scale: 0.5;
+    }
+    60% {
+      left: 60%;
+      border-bottom: 2px dashed #aaa;
+      scale: 0.5;
+    }
+    75% {
+      left: 80%;
+      border-bottom: 1.75px dashed #aaa;
+      scale: 0.8;
+    }
+    100% {
+      left: 100%;
+      border-bottom: 1.75px dashed #999;
+      scale: 1.2;
+    }
+  }
+  @media (max-width: 330px) {
+    .overlay-main-border-2 {
+      right: 3%;
+    }
+  }
+}
